@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CodeChallengeSolutions
 {
@@ -7,6 +8,7 @@ namespace CodeChallengeSolutions
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            List<string> solutionList = ChallengeHandler.ChallengeHandler.GetSolutions();
         }
     }
 }
